@@ -8,7 +8,7 @@ public class Main {
         System.out.println(figure1.getSurface());
         figure1.dessiner();
         System.out.println("-------------------------------------------");
-        Figure figure2=new Rectangle(new Point(5,5),12,42);
+        Figure figure2=new Rectangle(new Point(4,4),9,42);
         System.out.println(figure2.getPerimetre());
         System.out.println(figure2.getSurface());
         figure2.dessiner();
@@ -16,7 +16,7 @@ public class Main {
         Parametrage parametrageObservale=new Parametrage();
         parametrageObservale.addObserver(figure1);
         parametrageObservale.addObserver(figure2);
-        parametrageObservale.setCouleurContour(900);
+        parametrageObservale.setCouleurContour(420);
         figure1.dessiner();
         figure2.dessiner();
         System.out.println("--------------------Groupe-------------");
